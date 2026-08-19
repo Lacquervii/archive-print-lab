@@ -1,0 +1,15 @@
+# Generated and local working artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+*.tmp
+.env
+.env.*
+
+# Do not commit image outputs or private archives
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf

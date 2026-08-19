@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Visual review",
+  "type": "object",
+  "required": ["status", "mode_fit", "selected_mode", "selected_recipe", "rendering_style_branch", "rendering_style_selection_source", "rendering_style_fit", "top_failures", "next_changes"],
+  "properties": {
+    "status": {"type": "string", "enum": ["pass", "revise", "fail"]},
+    "top_failures": {"type": "array", "items": {"type": "string"}, "maxItems": 2},
+    "mode_fit": {"type": "string", "enum": ["pass", "partial", "fail"]},
+    "selected_mode": {"type": "string"},
+    "selected_recipe": {"type": "string"},
+    "rendering_style_branch": {"type": "string", "enum": ["contemporary_frosted", "warm_analog_print", "crisp_modern_graphic", "material_archive", "custom"]},
+    "rendering_style_selection_source": {"type": "string", "enum": ["user_specified", "user_selected_after_prompt", "user_allows_auto", "inherited_by_explicit_request"]},
+    "rendering_style_fit": {"type": "string", "enum": ["pass", "partial", "fail"]},
+    "custom_rendering_style_note": {"type": ["string", "null"]},
+    "selected_chassis_intensity": {"type": "string", "enum": ["none", "light", "active", "structural"]},
+    "chassis_translation": {"type": "string"},
+    "matches": {"type": "array", "items": {"type": "string"}},
+    "subject_footprint_fit": {"type": "string", "enum": ["pass", "partial", "fail"]},
+    "negative_space_corridors": {"type": "string", "enum": ["pass", "partial", "fail"]},
+    "next_changes": {"type": "array", "items": {"type": "string"}, "maxItems": 2},
+    "source_leakage": {"type": "boolean"},
+    "text_reliability": {"type": "string", "enum": ["reliable", "partial", "generator_approximate"]}
+  }
+}

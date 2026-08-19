@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Diffused editorial series contract",
+  "type": "object",
+  "required": [
+    "id",
+    "status",
+    "carrier",
+    "aspect_ratio",
+    "ratio_source",
+    "macro_role",
+    "central_role",
+    "meso_role",
+    "release_role",
+    "soft_hard_rule"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "const": "canonical-diffused-editorial-series-v1"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "canonical",
+        "explicit_override"
+      ]
+    },
+    "carrier": {
+      "type": "string",
+      "enum": [
+        "one_continuous_wide_editorial_carrier",
+        "adapted_continuous_carrier"
+      ]
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Default 16:9; explicit latest-user ratio overrides are permitted."
+    },
+    "ratio_source": {
+      "type": "string",
+      "enum": [
+        "default_16_9",
+        "explicit_user_override"
+      ]
+    },
+    "requested_size": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "returned_size": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rendering_style_branch": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "contemporary_frosted",
+        "warm_analog_print",
+        "crisp_modern_graphic",
+        "material_archive",
+        "custom",
+        null
+      ],
+      "description": "Per-output surface-atmosphere branch; it does not alter the canonical page roles."
+    },
+    "rendering_style_selection_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "user_specified",
+        "user_selected_after_prompt",
+        "user_allows_auto",
+        "inherited_by_explicit_request",
+        null
+      ]
+    },
+    "custom_rendering_style_note": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "aspect_status": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "exact",
+        "near_match",
+        "mismatch",
+        null
+      ]
+    },
+    "macro_role": {
+      "type": "string",
+      "const": "dominant_upper_title_or_glyph_plane"
+    },
+    "central_role": {
+      "type": "string",
+      "const": "compact_rich_theme_event"
+    },
+    "meso_role": {
+      "type": "string",
+      "const": "visible_contacting_unequal_structural_field"
+    },
+    "release_role": {
+      "type": "string",
+      "const": "quiet_authored_lower_or_lateral_release"
+    },
+    "soft_hard_rule": {
+      "type": "string",
+      "const": "selective_matte_material_layer_against_crisp_printed_structural_layer"
+    },
+    "default_mode": {
+      "type": "string",
+      "const": "concentrated_cover"
+    },
+    "default_recipe": {
+      "type": "string",
+      "const": "concentrated_editorial_cover"
+    },
+    "default_chassis": {
+      "type": "string",
+      "const": "structural"
+    },
+    "default_aspect_ratio": {
+      "type": "string",
+      "const": "16:9"
+    },
+    "override_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "override_mode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonical_checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 4
+    }
+  },
+  "additionalProperties": false
+}

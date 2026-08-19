@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Compiled visual theme",
+  "type": "object",
+  "required": ["theme_proposition", "subject_behavior", "primary_gestalt", "meso_events", "material_proof", "carrier_provenance", "adaptation_delta", "palette_record", "palette_roles", "refusal_list"],
+  "properties": {
+    "theme_proposition": {"type": "string", "minLength": 1},
+    "subject_behavior": {"type": "string", "enum": ["single_event", "family", "process", "material_state", "scene", "information_system", "other"]},
+    "primary_gestalt": {"type": "string", "minLength": 1},
+    "related_forms_or_echoes": {"type": "array", "items": {"type": "string"}},
+    "meso_events": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 3},
+    "material_proof": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "carrier_provenance": {
+      "type": "object",
+      "required": ["theme_native", "carrier_native", "profile_native"],
+      "properties": {
+        "theme_native": {"type": "array", "items": {"type": "string"}},
+        "carrier_native": {"type": "array", "items": {"type": "string"}},
+        "profile_native": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "profile_translation": {"type": "string", "minLength": 1},
+    "adaptation_delta": {
+      "type": "object",
+      "required": ["kept", "changed", "inherited_exclusions"],
+      "properties": {
+        "kept": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "changed": {"type": "array", "items": {"type": "string"}, "minItems": 4},
+        "inherited_exclusions": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+      },
+      "additionalProperties": false
+    },
+    "palette_record": {
+      "type": "object",
+      "required": ["palette_id", "derivation", "field", "volume", "material", "accent", "secondary", "title_ink", "graphic_ink", "release", "contrast_strategy", "coverage_strategy", "forbidden_inherited_hues", "freshness_check"],
+      "properties": {
+        "palette_id": {"type": "string", "minLength": 2},
+        "derivation": {"type": "string", "minLength": 20},
+        "field": {"type": "string", "minLength": 3},
+        "volume": {"type": "string", "minLength": 3},
+        "material": {"type": "string", "minLength": 3},
+        "accent": {"type": "string", "minLength": 3},
+        "secondary": {"type": ["string", "null"]},
+        "title_ink": {"type": "string", "minLength": 3},
+        "graphic_ink": {"type": "string", "minLength": 3},
+        "release": {"type": "string", "minLength": 3},
+        "contrast_strategy": {"type": "string", "minLength": 10},
+        "coverage_strategy": {"type": "string", "minLength": 10},
+        "forbidden_inherited_hues": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "freshness_check": {"type": "string", "minLength": 20}
+      },
+      "additionalProperties": false
+    },
+    "palette_roles": {
+      "type": "object",
+      "required": ["field", "volume", "material", "accent", "secondary", "title_ink", "graphic_ink", "release"],
+      "properties": {
+        "field": {"type": "string", "minLength": 1},
+        "volume": {"type": "string", "minLength": 1},
+        "material": {"type": "string", "minLength": 1},
+        "accent": {"type": "string", "minLength": 1},
+        "secondary": {"type": ["string", "null"]},
+        "title_ink": {"type": "string", "minLength": 1},
+        "graphic_ink": {"type": "string", "minLength": 1},
+        "release": {"type": "string", "minLength": 1}
+      },
+      "additionalProperties": false
+    },
+    "title_candidate": {"type": ["string", "null"]},
+    "release_behavior": {"type": "string"},
+    "refusal_list": {"type": "array", "items": {"type": "string"}, "maxItems": 12}
+  },
+  "additionalProperties": false
+}

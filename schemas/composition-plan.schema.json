@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Editorial composition plan",
+  "type": "object",
+  "required": ["mode", "recipe", "aspect_ratio", "ratio_source", "macro", "central", "meso", "chassis", "protected_corridors", "release", "production_route"],
+  "properties": {
+    "mode": {"type": "string"},
+    "recipe": {"type": "string"},
+    "aspect_ratio": {"type": "string", "minLength": 1},
+    "ratio_source": {"type": "string", "enum": ["default_16_9", "explicit_user_override"]},
+    "requested_size": {"type": ["string", "null"]},
+    "returned_size": {"type": ["string", "null"]},
+    "rendering_style_branch": {"type": ["string", "null"], "enum": ["contemporary_frosted", "warm_analog_print", "crisp_modern_graphic", "material_archive", "custom", null]},
+    "rendering_style_selection_source": {"type": ["string", "null"], "enum": ["user_specified", "user_selected_after_prompt", "user_allows_auto", "inherited_by_explicit_request", null]},
+    "custom_rendering_style_note": {"type": ["string", "null"]},
+    "macro": {"type": "object", "required": ["first_attention"], "properties": {"first_attention": {"type": "string"}, "title_fit": {"type": "string"}, "title_contact": {"type": "string"}}, "additionalProperties": false},
+    "central": {"type": "object", "required": ["envelope", "dominant_relation"], "properties": {"envelope": {"type": "string"}, "dominant_relation": {"type": "string"}, "support_hierarchy": {"type": "array", "items": {"type": "string"}}}, "additionalProperties": false},
+    "meso": {"type": "object", "required": ["events", "provenance"], "properties": {"events": {"type": "array", "items": {"type": "string"}}, "provenance": {"type": "string"}}, "additionalProperties": false},
+    "chassis": {"type": "object", "required": ["intensity"], "properties": {"intensity": {"type": "string", "enum": ["none", "light", "active", "structural"]}, "members": {"type": "array", "items": {"type": "string"}}, "translation": {"type": "string"}}, "additionalProperties": false},
+    "contacts": {"type": "array", "items": {"type": "string"}},
+    "protected_corridors": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "release": {"type": "string"},
+    "layer_order": {"type": "array", "items": {"type": "string"}},
+    "production_route": {"type": "string", "description": "Delivery mode: prompt (default, generator-agnostic) or the named generator id (image2, midjourney, flux, sdxl, etc.) when rendering is requested."}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Visual adaptation brief",
+  "type": "object",
+  "required": [
+    "subject",
+    "carrier",
+    "aspect_ratio",
+    "ratio_source",
+    "reference_role",
+    "backend",
+    "viewer_action",
+    "subject_behavior"
+  ],
+  "properties": {
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "carrier": {
+      "type": "string",
+      "enum": [
+        "poster",
+        "cover",
+        "hero",
+        "material",
+        "archive",
+        "process",
+        "scene",
+        "diagram",
+        "other"
+      ]
+    },
+    "aspect_ratio": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Defaults to 16:9. A latest explicit user ratio request may set another value when ratio_source is explicit_user_override."
+    },
+    "ratio_source": {
+      "type": "string",
+      "enum": [
+        "default_16_9",
+        "explicit_user_override"
+      ]
+    },
+    "requested_size": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Generator target matching selected ratio when a generator is named; optional in prompt-only delivery. Default 16:9 target example on gpt-image-2-style APIs: 1792x1008."
+    },
+    "returned_size": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Actual returned dimensions when rendering happened; report honestly."
+    },
+    "reference_role": {
+      "type": "string",
+      "enum": [
+        "none",
+        "benchmark",
+        "material",
+        "base",
+        "content",
+        "recreation"
+      ]
+    },
+    "backend": {
+      "type": "string",
+      "description": "Generator chosen by the user (image2, midjourney, flux, sdxl, gpt-image, unknown, or any provider name); empty or null means prompt-only delivery."
+    },
+    "viewer_action": {
+      "type": "string",
+      "enum": [
+        "identify",
+        "feel",
+        "understand",
+        "inspect",
+        "compare",
+        "remember",
+        "navigate",
+        "other"
+      ]
+    },
+    "subject_behavior": {
+      "type": "string",
+      "enum": [
+        "single_event",
+        "family",
+        "process",
+        "material_state",
+        "scene",
+        "information_system",
+        "other"
+      ]
+    },
+    "visual_mode": {
+      "type": "string",
+      "enum": [
+        "concentrated_cover",
+        "hero",
+        "archive",
+        "material",
+        "process",
+        "narrative",
+        "information",
+        "quiet"
+      ]
+    },
+    "chassis_intensity": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "none",
+        "light",
+        "active",
+        "structural",
+        null
+      ],
+      "description": "Family-level soft-image / crisp-printed graphic grammar selected after mode and recipe."
+    },
+    "chassis_preference": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "auto",
+        "avoid",
+        "prefer",
+        "required",
+        null
+      ]
+    },
+    "rendering_style_branch": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "contemporary_frosted",
+        "warm_analog_print",
+        "crisp_modern_graphic",
+        "material_archive",
+        "custom",
+        null
+      ],
+      "description": "Surface-atmosphere branch. Required before any rendering; it does not change mode, chassis, page skeleton, or theme palette derivation."
+    },
+    "rendering_style_selection_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "user_specified",
+        "user_selected_after_prompt",
+        "user_allows_auto",
+        "inherited_by_explicit_request",
+        null
+      ],
+      "description": "How the branch was resolved before generation."
+    },
+    "custom_rendering_style_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Required non-empty user direction when rendering_style_branch is custom."
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "palette": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mood": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "subject_footprint": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Intended outer subject envelope relative to the carrier and protected corridors."
+    },
+    "negative_space_corridors": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Continuous title, margin, release, or reading-path space that must remain open."
+    },
+    "title_fit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "contained",
+        "edge_touching",
+        "partial_crop",
+        "full_bleed",
+        "stacked",
+        "secondary",
+        "none",
+        null
+      ]
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

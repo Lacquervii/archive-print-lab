@@ -1,0 +1,20 @@
+# Workflow: adapt a reference to any subject
+
+1. Load the core Skill.
+2. Read `family-standard.md`, `aspect-ratio-contract.md`, and `canonical-layout-spec.md` first, then `design-engine.md`, `reference-analysis.md`, `decision-router.md`, `theme-grammar.md`, `graphic-chassis.md`, `theme-compiler.md`, `theme-customization-contract.md`, `composition-planner.md`, `prompt-renderer.md`, `theme-adaptation.md`, `footprint-release.md`, and `recipe-library.md` progressively as the task needs them.
+3. Parse the latest brief into viewer action, subject behavior, carrier, ratio (default 16:9 unless explicitly overridden), constraints, reference role and delivery requirement.
+4. Activate the canonical series cover by default: selected-ratio concentrated-cover page skeleton, structural chassis, upper title plane, compact central event, contacting meso field and authored release. Record an explicit mode override only when the brief requests another viewer job; record an explicit ratio override independently when the latest brief requests another ratio.
+5. Build a source-independent abstraction and evidence ledger. Separate source-specific inventory from transferable hierarchy, density, layer tension, finish and graphic-chassis behavior.
+6. Select chassis intensity: canonical `structural` by default; lighter intensity only with a recorded alternate-mode reason. Do not assume every subject needs identical literal overlays, and do not erase the family grammar.
+7. Compile the theme: proposition, primary gestalt, supports/echoes, 1–2 meso events, material proof, theme/carrier/profile provenance, fresh adaptation delta and palette record with derivation, role-specific inks, coverage, and inherited-hue exclusions, and targeted refusal list.
+8. Plan the selected-ratio composition: use the default 16:9 zones when no override exists; otherwise derive title zone, central envelope, meso field, internal density, translated chassis members, contact matrix, protected corridors, release and layer order for the selected ratio. If the user names a generator, note its matching target size; otherwise deliver the ratio instruction only.
+9. Read `rendering-branches.md` and resolve one rendering-style branch before writing any prompt. If the user did not choose or explicitly carry one over, ask the compact branch question and wait; never infer warm analog print from the subject noun.
+10. If the selected mode is Concentrated Editorial Cover, read `poster-mechanics.md` and `structural-scale-ladder.md`; do not load them as universal rules for other modes.
+11. If the named generator is Image2 / gpt-image-2, additionally load `image2-editorial-adapter.md` and `editorial-imprint.md`; this restores image-native structural pressure while keeping the public Skill backend-agnostic.
+12. Render natural spatial prose through `prompt-renderer.md` after compiler, composition and rendering-style branch are stable. Keep title wording short, attempt the lowercase `archive-print-lab` imprint in the release, and accept generator-approximate lettering and geometry.
+12. Deliver the prompt (the default output). Rendering is optional and only happens when the user has a named generator; keep audit checks, schemas and module menus internal.
+13. If the user renders, inspect at thumbnail, normal and close range against the canonical series contract or the explicitly selected override; verify actual output against the selected ratio and selected rendering-style branch, then check subject footprint versus internal density, chassis translation versus copied furniture, and continuity of title/margin/release corridors.
+14. Use `failure-diagnostics.md` to identify whether the top failure is router, series contract, recipe, compiler, composition, chassis, carrier, theme, material, rendering-style branch or delivery.
+15. Save prompt, optional output, compiled-theme record, composition plan and review notes.
+
+Only load a case pack if the user asks about a known reference or the current failure matches a case. A case can calibrate a decision; it cannot replace the router, graphic chassis or core.

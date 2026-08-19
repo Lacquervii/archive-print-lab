@@ -1,0 +1,40 @@
+{
+  "name": "archive-print-lab",
+  "display_name": "Archive Print Lab / 旧档博物志",
+  "version": "5.1.0",
+  "purpose": "Generator-agnostic editorial image prompt compilation, visual direction, and review system",
+  "entrypoint": "SKILL.md",
+  "core": [
+    "references/decision-router.md",
+    "references/theme-grammar.md",
+    "references/graphic-chassis.md",
+    "references/rendering-branches.md",
+    "references/theme-compiler.md",
+    "references/theme-customization-contract.md",
+    "references/family-standard.md",
+    "references/aspect-ratio-contract.md",
+    "references/composition-planner.md",
+    "references/prompt-renderer.md",
+    "references/poster-mechanics.md",
+    "references/structural-scale-ladder.md",
+    "references/editorial-imprint.md",
+    "references/backend-adapters.md"
+  ],
+  "backend_adapters": [
+    "references/image2-editorial-adapter.md"
+  ],
+  "workflows": [
+    "workflows/adapt-reference.md",
+    "workflows/generate-review.md",
+    "workflows/optimize-skill.md"
+  ],
+  "schemas": [
+    "schemas/brief.schema.json",
+    "schemas/compiled-theme.schema.json",
+    "schemas/composition-plan.schema.json",
+    "schemas/review.schema.json",
+    "schemas/series-contract.schema.json"
+  ],
+  "optional_cases": [],
+  "loading_rule": "Load SKILL.md, then the decision router, family standard, theme compiler, composition planner, rendering branch, prompt renderer and only the task-specific cards needed. For Image2, also load the Image2 editorial adapter and editorial imprint card."
+}
