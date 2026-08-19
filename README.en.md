@@ -116,6 +116,20 @@ The page grammar is stable; the paper atmosphere changes with the theme. It is u
       <strong>Plum Blossom</strong><br /><sub>Buds, forks, and almost frost-colored air.</sub>
     </td>
   </tr>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy.png"><img src="examples/daisy.png" alt="Daisy editorial poster" width="100%" /></a><br />
+      <strong>Daisy</strong><br /><sub>White petals, bright centers, and fresh air.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-pink.png"><img src="examples/lily-pink.png" alt="Pink lily editorial poster" width="100%" /></a><br />
+      <strong>Pink Lily</strong><br /><sub>Soft pink petals, elegant form, and a girlish atmosphere.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-stargazer.png"><img src="examples/lily-stargazer.png" alt="Stargazer lily editorial poster" width="100%" /></a><br />
+      <strong>Stargazer Lily</strong><br /><sub>Star-shaped petals, dark speckles, and a night-sky presence.</sub>
+    </td>
+  </tr>
 </table>
 
 > These are generated studies, not templates to copy. Every new theme recomposes the subject, palette, carriers, and release.

@@ -116,6 +116,20 @@
       <strong>梅花</strong><br /><sub>花苞、枝桠与近乎霜色的空气。</sub>
     </td>
   </tr>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy.png"><img src="examples/daisy.png" alt="雏菊编辑海报" width="100%" /></a><br />
+      <strong>雏菊</strong><br /><sub>白色花瓣、明亮花心与清新空气。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-pink.png"><img src="examples/lily-pink.png" alt="粉色百合编辑海报" width="100%" /></a><br />
+      <strong>粉色百合</strong><br /><sub>柔粉花瓣、优雅花形与少女气息。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-stargazer.png"><img src="examples/lily-stargazer.png" alt="星百合编辑海报" width="100%" /></a><br />
+      <strong>星百合</strong><br /><sub>星形花瓣、深色斑点与夜空感。</sub>
+    </td>
+  </tr>
 </table>
 
 > 这些是不同主题的生成样张，不是可以照搬的模板。每次新主题都会重新组织主体、色板、载体与留白。
