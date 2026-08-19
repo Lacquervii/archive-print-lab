@@ -92,16 +92,16 @@ The page grammar is stable; the paper atmosphere changes with the theme. It is u
 <table>
   <tr>
     <td width="33.33%" align="center" valign="top">
+      <a href="examples/tree.png"><img src="assets/gallery/tree.jpg" alt="Tree editorial poster" width="100%" /></a><br />
+      <strong>Tree</strong><br /><sub>Trunk, canopy, branching, and the pressure of rings.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
       <a href="examples/babys-breath.png"><img src="assets/gallery/babys-breath.jpg" alt="Baby's breath editorial poster" width="100%" /></a><br />
       <strong>Baby’s Breath</strong><br /><sub>White blossoms, an airy branch network, mineral cool light.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-pink.png"><img src="assets/gallery/lily-pink.jpg" alt="Pink lily editorial poster" width="100%" /></a><br />
-      <strong>Pink Lily</strong><br /><sub>Cup-shaped bloom, translucent edges, soft gray field layers.</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-pink-warm.png"><img src="assets/gallery/lily-pink-warm.jpg" alt="Pink lily warm variant" width="100%" /></a><br />
-      <strong>Pink Lily · Warm</strong><br /><sub>A warm-print variant of the same subject.</sub>
+      <a href="examples/gypsophila-air.png"><img src="assets/gallery/gypsophila-air.jpg" alt="Baby's breath air study" width="100%" /></a><br />
+      <strong>Baby’s Breath · Air</strong><br /><sub>Presence made of almost nothing: structure before form.</sub>
     </td>
   </tr>
   <tr>
@@ -114,32 +114,46 @@ The page grammar is stable; the paper atmosphere changes with the theme. It is u
       <strong>Plum Blossom</strong><br /><sub>Buds, forks, and almost frost-colored air.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="Daisy baseline" width="100%" /></a><br />
-      <strong>Daisy</strong><br /><sub>Baseline: bright daisies with a mineral field layer.</sub>
+      <a href="examples/lily-grace.jpg"><img src="assets/gallery/lily-grace.jpg" alt="Lily editorial poster" width="100%" /></a><br />
+      <strong>Lily</strong><br /><sub>Where light touches a petal, softness begins to flow.</sub>
     </td>
   </tr>
 </table>
 
-### Daisy — finish variants (same subject, different mood)
+### Daisy (a dedicated series)
 
 <table>
   <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="Daisy baseline" width="100%" /></a><br />
+      <strong>Daisy · Baseline</strong><br /><sub>Bright centers with a mineral field layer, the default move.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-study.png"><img src="assets/gallery/daisy-study.jpg" alt="Daisy study" width="100%" /></a><br />
+      <strong>Daisy · Study</strong><br /><sub>A close observation of structure, light, and form.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-botany.png"><img src="assets/gallery/daisy-botany.jpg" alt="Daisy botanical archive" width="100%" /></a><br />
+      <strong>Daisy · Botany</strong><br /><sub>Binomial names, family, and archiving through typographic index.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-plate.png"><img src="assets/gallery/daisy-plate.jpg" alt="Daisy plate" width="100%" /></a><br />
+      <strong>Daisy · Plate</strong><br /><sub>Plate 07: cool-gray layout and specimen presentation.</sub>
+    </td>
     <td width="33.33%" align="center" valign="top">
       <a href="examples/daisy-v2.png"><img src="assets/gallery/daisy-v2.jpg" alt="Daisy variant 1" width="100%" /></a><br />
       <strong>Daisy · Variant 1</strong><br /><sub>Different surface finish on the same theme.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-v3.png"><img src="assets/gallery/daisy-v3.jpg" alt="Daisy variant 2" width="100%" /></a><br />
+      <a href="examples/daisy-v4.png"><img src="assets/gallery/daisy-v4.jpg" alt="Daisy variant 2" width="100%" /></a><br />
       <strong>Daisy · Variant 2</strong><br /><sub>Another palette and field relationship.</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-v4.png"><img src="assets/gallery/daisy-v4.jpg" alt="Daisy variant 3" width="100%" /></a><br />
-      <strong>Daisy · Variant 3</strong><br /><sub>Shows the range of a fixed page grammar with a variable finish.</sub>
     </td>
   </tr>
 </table>
 
-> These are generated studies, not templates to copy. The last row is the same daisy subject rendered in three different finishes, demonstrating how the page grammar stays fixed while the mood shifts.
+> These are generated studies, not templates to copy. The daisies form a dedicated series: six studies of the same subject demonstrating how the page grammar stays fixed while the finish changes.
 
 ## Where it fits—and where it does not
 
