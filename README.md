@@ -3,7 +3,10 @@
 [![中文](https://img.shields.io/badge/中文-CN-blue)](README.zh.md)
 [![English](https://img.shields.io/badge/English-EN-lightgreen)](README.md)
 
-A generator-agnostic prompt-compilation system for a stable 9010-derived editorial cover family.
+> **AI image-generation skill (生图 Skill)** — compile any subject into a generator-ready editorial poster prompt.
+> **AI 生图 Skill** — 把任意主题编译成可直接出图的编辑海报提示词。
+
+A generator-agnostic prompt-compilation system for a stable **9010-derived editorial cover family**. Feed it a subject (plant, object, artifact, material, theme); it returns a structured prompt that produces the same editorial family across Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
 
 ## Core visual contract
 
@@ -20,9 +23,9 @@ The family keeps the page grammar stable while re-authoring the subject, palette
 
 ## What it does
 
-- Compiles image-generation prompts and visual direction for objects, plants, artifacts, materials, and editorial themes.
-- Works without a specific image model; the default deliverable is a ready-to-use prompt.
-- Adapts prompt syntax only when a generator is named, including Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
+- **Image-generation prompt compiler**: turns objects, plants, artifacts, materials, and editorial themes into ready-to-use image prompts.
+- **Generator-agnostic**: works without a specific model; the default deliverable is a ready-to-use prompt.
+- Adapts prompt syntax only when a generator is named — Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
 - Uses an optional Image2 editorial adapter to retain strong title, central-event, and contacting-field pressure in image-native output.
 
 ## Canonical route
@@ -43,7 +46,7 @@ For ordinary requests, the family retains:
 4. soft material volume against crisp printed structure;
 5. a connected lower-right release with the small `archive-print-lab` publication imprint.
 
-## Gallery
+## Gallery — example generated outputs / 生成效果示例
 
 | Image | Subject | Description |
 |-------|---------|-------------|
