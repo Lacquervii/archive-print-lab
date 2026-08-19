@@ -3,7 +3,10 @@
 [![English](https://img.shields.io/badge/English-EN-lightgreen)](README.md)
 [![中文](https://img.shields.io/badge/中文-CN-blue)](README.zh.md)
 
-一个与生成器无关的提示词编译系统，基于稳定的 9010 衍生编辑封面家族。
+> **AI 生图 Skill** — 把任意主题编译成可直接出图的编辑海报提示词。
+> **AI image-generation skill** — compile any subject into a generator-ready editorial poster prompt.
+
+一个与生成器无关的提示词编译系统，基于稳定的 **9010 衍生编辑封面家族**。输入一个主题（植物、物体、器物、材质、编辑主题），即可输出结构化的生成提示词，让 Image2 / gpt-image-2、Midjourney、Flux、SDXL、Stable Diffusion、ComfyUI、Gemini 及消费级图像工具产出同家族的编辑海报。
 
 ## 核心视觉契约
 
@@ -20,8 +23,8 @@
 
 ## 功能
 
-- 编译物体、植物、器物、材质和编辑主题的图像生成提示词与视觉方向。
-- 无需指定具体图像模型即可工作；默认交付物为可直接使用的提示词。
+- **生图提示词编译器**：将物体、植物、器物、材质和编辑主题编译为可直接使用的图像提示词。
+- **生成器无关**：无需指定具体图像模型即可工作；默认交付物为可直接使用的提示词。
 - 仅在指定生成器时适配提示词语法，支持 Image2 / gpt-image-2、Midjourney、Flux、SDXL、Stable Diffusion、ComfyUI、Gemini 及消费级图像工具。
 - 使用可选的 Image2 编辑适配器，在原生图像输出中保留强烈的标题、中央事件和接触场压力。
 
@@ -43,19 +46,19 @@ ratio: 16:9
 4. 柔软材质体量与清晰印刷结构的对比；
 5. 连通的右下角释放区，带有小字 `archive-print-lab` 出版署名。
 
-## 画廊
+## 画廊 —— 生成效果示例 / Gallery
 
 | 图片 | 主题 | 描述 |
 |------|------|------|
-| ![Sunflower](examples/sunflower.png) | 向日葵 Sunflower | 暖调模拟印刷——金黄花瓣、深色种盘、夏至光线。 |
-| ![Baby's Breath](examples/babys-breath.png) | 满天星 Gypsophila | 当代冷灰弥散—— airy 枝条上的白色小花，矿物冷光。 |
-| ![Lily](examples/lily-pink.png) | 百合 Lily | 柔和粉彩编辑——粉色花瓣、斑点花喉、温柔渐变。 |
-| ![Lily](examples/lily-stargazer.png) | 百合 Lily | 梦幻弥散——百合品种，暖粉，光感氛围。 |
-| ![Oil Lamp](examples/oil-lamp.png) | 油灯 Oil Lamp | 暖调模拟印刷——黄铜底座、琥珀燃油、燃烧灯芯。 |
-| ![Tree](examples/tree.png) | 树 Tree | 泥土模拟——扭曲树干、苔藓树冠、年轮与分叉标注。 |
-| ![Daisy](examples/daisy.png) | 雏菊 Daisy | 当代冷灰弥散——白色花瓣、金色花心，结构平衡。 |
-| ![Plum Blossom](examples/plum-blossom.png) | 梅花 Plum Blossom | 精致编辑——淡粉花瓣、霜色背景、分叉与花苞。 |
-| ![Rose](examples/rose.png) | 玫瑰 Rose | 材质档案——绒面花瓣、带刺茎干、植物学精确。 |
+| ![向日葵](examples/sunflower.png) | 向日葵 Sunflower | 暖调模拟印刷——金黄花瓣、深色种盘、夏至光线。 |
+| ![满天星](examples/babys-breath.png) | 满天星 Gypsophila | 当代冷灰弥散——轻盈枝条上的白色小花，矿物冷光。 |
+| ![百合](examples/lily-pink.png) | 百合 Lily | 柔和粉彩编辑——粉色花瓣、斑点花喉、温柔渐变。 |
+| ![百合](examples/lily-stargazer.png) | 百合 Lily | 梦幻弥散——暖粉色调、光感氛围。 |
+| ![油灯](examples/oil-lamp.png) | 油灯 Oil Lamp | 暖调模拟印刷——黄铜底座、琥珀燃油、燃烧灯芯。 |
+| ![树](examples/tree.png) | 树 Tree | 泥土模拟——扭曲树干、苔藓树冠、年轮与分叉标注。 |
+| ![雏菊](examples/daisy.png) | 雏菊 Daisy | 当代冷灰弥散——白色花瓣、金色花心，结构平衡。 |
+| ![梅花](examples/plum-blossom.png) | 梅花 Plum Blossom | 精致编辑——淡粉花瓣、霜色背景、分叉与花苞。 |
+| ![玫瑰](examples/rose.png) | 玫瑰 Rose | 材质档案——绒面花瓣、带刺茎干、植物学精确。 |
 
 ## 使用
 
