@@ -92,19 +92,9 @@
 <table>
   <tr>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/tree.png"><img src="assets/gallery/tree.jpg" alt="树编辑海报" width="100%" /></a><br />
-      <strong>树</strong><br /><sub>树干、冠层、分叉与年轮的压力。</sub>
+      <a href="examples/lily.jpg"><img src="assets/gallery/lily.jpg" alt="百合编辑海报" width="100%" /></a><br />
+      <strong>百合</strong><br /><sub>柔软在光触到花瓣的地方开始流动。</sub>
     </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/babys-breath.png"><img src="assets/gallery/babys-breath.jpg" alt="满天星编辑海报" width="100%" /></a><br />
-      <strong>满天星</strong><br /><sub>白色小花、细枝网络与矿物冷光。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/gypsophila-air.png"><img src="assets/gallery/gypsophila-air.jpg" alt="满天星空气感编辑海报" width="100%" /></a><br />
-      <strong>满天星 · 空气</strong><br /><sub>几乎无物的纤细结构，空气感先于形态。</sub>
-    </td>
-  </tr>
-  <tr>
     <td width="33.33%" align="center" valign="top">
       <a href="examples/rose.png"><img src="assets/gallery/rose.jpg" alt="玫瑰编辑海报" width="100%" /></a><br />
       <strong>玫瑰</strong><br /><sub>绒面花瓣、刺与植物学式的近看。</sub>
@@ -113,47 +103,61 @@
       <a href="examples/plum-blossom.png"><img src="assets/gallery/plum-blossom.jpg" alt="梅花编辑海报" width="100%" /></a><br />
       <strong>梅花</strong><br /><sub>花苞、枝桠与近乎霜色的空气。</sub>
     </td>
+  </tr>
+  <tr>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-grace.jpg"><img src="assets/gallery/lily-grace.jpg" alt="百合编辑海报" width="100%" /></a><br />
-      <strong>百合</strong><br /><sub>光触到花瓣的地方，柔软开始流动。</sub>
+      <a href="examples/babys-breath.png"><img src="assets/gallery/babys-breath.jpg" alt="满天星编辑海报" width="100%" /></a><br />
+      <strong>满天星</strong><br /><sub>白色小花、细枝网络与矿物冷光。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/sunflower.png"><img src="assets/gallery/sunflower.jpg" alt="向日葵编辑海报" width="100%" /></a><br />
+      <strong>向日葵</strong><br /><sub>金黄花瓣、深色种盘与夏至纸面。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/oil-lamp.png"><img src="assets/gallery/oil-lamp.jpg" alt="油灯编辑海报" width="100%" /></a><br />
+      <strong>油灯</strong><br /><sub>黄铜、琥珀燃油与被使用过的光。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/tree.png"><img src="assets/gallery/tree.jpg" alt="树编辑海报" width="100%" /></a><br />
+      <strong>树</strong><br /><sub>树干、冠层、分叉与年轮的压力。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="雏菊编辑海报" width="100%" /></a><br />
+      <strong>雏菊</strong><br /><sub>明亮花心与矿质场层的清晰呈现。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/orchid.png"><img src="assets/gallery/orchid.jpg" alt="兰花编辑海报" width="100%" /></a><br />
+      <strong>兰花</strong><br /><sub>静谧的垂落、纤细结构与留白。</sub>
     </td>
   </tr>
 </table>
 
-### 雏菊（单独的系列）
+### 雏菊（风格组）
 
 <table>
   <tr>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="雏菊基准" width="100%" /></a><br />
-      <strong>雏菊 · 基准</strong><br /><sub>明亮花心与矿质场层的默认走法。</sub>
+    <td width="25%" align="center" valign="top">
+      <a href="examples/daisy-style1.png"><img src="assets/gallery/daisy-style1.jpg" alt="雏菊风格一" width="100%" /></a><br />
+      <strong>雏菊 · 风格一</strong>
     </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-study.png"><img src="assets/gallery/daisy-study.jpg" alt="雏菊研究" width="100%" /></a><br />
-      <strong>雏菊 · 研究</strong><br /><sub>对结构、光与形态的一次近距离观察。</sub>
+    <td width="25%" align="center" valign="top">
+      <a href="examples/daisy-style2.png"><img src="assets/gallery/daisy-style2.jpg" alt="雏菊风格二" width="100%" /></a><br />
+      <strong>雏菊 · 风格二</strong>
     </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-botany.png"><img src="assets/gallery/daisy-botany.jpg" alt="雏菊植物学档案" width="100%" /></a><br />
-      <strong>雏菊 · 植物学</strong><br /><sub>学名、科属与版式索引的档案化处理。</sub>
+    <td width="25%" align="center" valign="top">
+      <a href="examples/daisy-style3.png"><img src="assets/gallery/daisy-style3.jpg" alt="雏菊风格三" width="100%" /></a><br />
+      <strong>雏菊 · 风格三</strong>
     </td>
-  </tr>
-  <tr>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-plate.png"><img src="assets/gallery/daisy-plate.jpg" alt="雏菊图版" width="100%" /></a><br />
-      <strong>雏菊 · 图版</strong><br /><sub>Plate 07：冷灰版式与标本式呈现。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-v2.png"><img src="assets/gallery/daisy-v2.jpg" alt="雏菊变体一" width="100%" /></a><br />
-      <strong>雏菊 · 变体一</strong><br /><sub>同一主题的不同完成面对照。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy-v4.png"><img src="assets/gallery/daisy-v4.jpg" alt="雏菊变体二" width="100%" /></a><br />
-      <strong>雏菊 · 变体二</strong><br /><sub>色板与场层关系的另一种走法。</sub>
+    <td width="25%" align="center" valign="top">
+      <a href="examples/daisy-style4.png"><img src="assets/gallery/daisy-style4.jpg" alt="雏菊风格四" width="100%" /></a><br />
+      <strong>雏菊 · 风格四</strong>
     </td>
   </tr>
 </table>
 
-> 这些是不同主题的生成样张，不是可以照搬的模板。雏菊单独成组：六张同题变体展示页面语法稳定、完成面可变的完整范围。
+> 这些是不同主题的生成样张，不是可以照搬的模板。雏菊风格组展示同一主题在不同完成面下的气质变化。
 
 ## 它适合做什么
 
