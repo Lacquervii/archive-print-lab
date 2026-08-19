@@ -87,19 +87,21 @@
 
 ## 作品选辑
 
+### 主题样张
+
 <table>
   <tr>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/sunflower.png"><img src="assets/gallery/sunflower.jpg" alt="向日葵编辑海报" width="100%" /></a><br />
-      <strong>向日葵</strong><br /><sub>金黄花瓣、深色种盘与夏至纸面。</sub>
-    </td>
     <td width="33.33%" align="center" valign="top">
       <a href="examples/babys-breath.png"><img src="assets/gallery/babys-breath.jpg" alt="满天星编辑海报" width="100%" /></a><br />
       <strong>满天星</strong><br /><sub>白色小花、细枝网络与矿物冷光。</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/oil-lamp.png"><img src="assets/gallery/oil-lamp.jpg" alt="油灯编辑海报" width="100%" /></a><br />
-      <strong>油灯</strong><br /><sub>黄铜、琥珀燃油与被使用过的光。</sub>
+      <a href="examples/lily-pink.png"><img src="assets/gallery/lily-pink.jpg" alt="粉百合编辑海报" width="100%" /></a><br />
+      <strong>粉百合</strong><br /><sub>杯状花冠、清透瓣缘与柔灰场层。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-pink-warm.png"><img src="assets/gallery/lily-pink-warm.jpg" alt="粉百合暖调编辑海报" width="100%" /></a><br />
+      <strong>粉百合 · 暖调</strong><br /><sub>同一主题的暖印刷变体对照。</sub>
     </td>
   </tr>
   <tr>
@@ -108,31 +110,36 @@
       <strong>玫瑰</strong><br /><sub>绒面花瓣、刺与植物学式的近看。</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/tree.png"><img src="assets/gallery/tree.jpg" alt="树编辑海报" width="100%" /></a><br />
-      <strong>树</strong><br /><sub>树干、冠层、分叉与年轮的压力。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
       <a href="examples/plum-blossom.png"><img src="assets/gallery/plum-blossom.jpg" alt="梅花编辑海报" width="100%" /></a><br />
       <strong>梅花</strong><br /><sub>花苞、枝桠与近乎霜色的空气。</sub>
     </td>
-  </tr>
-  <tr>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy.png"><img src="examples/daisy.png" alt="雏菊编辑海报" width="100%" /></a><br />
-      <strong>雏菊</strong><br /><sub>白色花瓣、明亮花心与清新空气。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-pink.png"><img src="examples/lily-pink.png" alt="粉色百合编辑海报" width="100%" /></a><br />
-      <strong>粉色百合</strong><br /><sub>柔粉花瓣、优雅花形与少女气息。</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-stargazer.png"><img src="examples/lily-stargazer.png" alt="星百合编辑海报" width="100%" /></a><br />
-      <strong>星百合</strong><br /><sub>星形花瓣、深色斑点与夜空感。</sub>
+      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="雏菊编辑海报" width="100%" /></a><br />
+      <strong>雏菊</strong><br /><sub>基准版：明亮雏菊与矿质场层。</sub>
     </td>
   </tr>
 </table>
 
-> 这些是不同主题的生成样张，不是可以照搬的模板。每次新主题都会重新组织主体、色板、载体与留白。
+### 雏菊风格对比（同题变体）
+
+<table>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v2.png"><img src="assets/gallery/daisy-v2.jpg" alt="雏菊变体一" width="100%" /></a><br />
+      <strong>雏菊 · 变体一</strong><br /><sub>同一主题的不同完成面对照。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v3.png"><img src="assets/gallery/daisy-v3.jpg" alt="雏菊变体二" width="100%" /></a><br />
+      <strong>雏菊 · 变体二</strong><br /><sub>色板与场层关系的另一种走法。</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v4.png"><img src="assets/gallery/daisy-v4.jpg" alt="雏菊变体三" width="100%" /></a><br />
+      <strong>雏菊 · 变体三</strong><br /><sub>展示页面语法固定、气质可变的范围。</sub>
+    </td>
+  </tr>
+</table>
+
+> 这些是不同主题的生成样张，不是可以照搬的模板。末尾三张为同一雏菊主题的不同风格变体，用来展示页面语法稳定、完成面可变的范围。
 
 ## 它适合做什么
 

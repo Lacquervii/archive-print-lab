@@ -87,19 +87,21 @@ The page grammar is stable; the paper atmosphere changes with the theme. It is u
 
 ## Selected works
 
+### Theme studies
+
 <table>
   <tr>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/sunflower.png"><img src="assets/gallery/sunflower.jpg" alt="Sunflower editorial poster" width="100%" /></a><br />
-      <strong>Sunflower</strong><br /><sub>Golden petals, a dark seed head, and solstice paper.</sub>
-    </td>
     <td width="33.33%" align="center" valign="top">
       <a href="examples/babys-breath.png"><img src="assets/gallery/babys-breath.jpg" alt="Baby's breath editorial poster" width="100%" /></a><br />
       <strong>Baby’s Breath</strong><br /><sub>White blossoms, an airy branch network, mineral cool light.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/oil-lamp.png"><img src="assets/gallery/oil-lamp.jpg" alt="Oil lamp editorial poster" width="100%" /></a><br />
-      <strong>Oil Lamp</strong><br /><sub>Brass, amber oil, and the light of use.</sub>
+      <a href="examples/lily-pink.png"><img src="assets/gallery/lily-pink.jpg" alt="Pink lily editorial poster" width="100%" /></a><br />
+      <strong>Pink Lily</strong><br /><sub>Cup-shaped bloom, translucent edges, soft gray field layers.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/lily-pink-warm.png"><img src="assets/gallery/lily-pink-warm.jpg" alt="Pink lily warm variant" width="100%" /></a><br />
+      <strong>Pink Lily · Warm</strong><br /><sub>A warm-print variant of the same subject.</sub>
     </td>
   </tr>
   <tr>
@@ -108,31 +110,36 @@ The page grammar is stable; the paper atmosphere changes with the theme. It is u
       <strong>Rose</strong><br /><sub>Velvet petals, thorns, and botanical proximity.</sub>
     </td>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/tree.png"><img src="assets/gallery/tree.jpg" alt="Tree editorial poster" width="100%" /></a><br />
-      <strong>Tree</strong><br /><sub>Trunk, canopy, branching, and the pressure of rings.</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
       <a href="examples/plum-blossom.png"><img src="assets/gallery/plum-blossom.jpg" alt="Plum blossom editorial poster" width="100%" /></a><br />
       <strong>Plum Blossom</strong><br /><sub>Buds, forks, and almost frost-colored air.</sub>
     </td>
-  </tr>
-  <tr>
     <td width="33.33%" align="center" valign="top">
-      <a href="examples/daisy.png"><img src="examples/daisy.png" alt="Daisy editorial poster" width="100%" /></a><br />
-      <strong>Daisy</strong><br /><sub>White petals, bright centers, and fresh air.</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-pink.png"><img src="examples/lily-pink.png" alt="Pink lily editorial poster" width="100%" /></a><br />
-      <strong>Pink Lily</strong><br /><sub>Soft pink petals, elegant form, and a girlish atmosphere.</sub>
-    </td>
-    <td width="33.33%" align="center" valign="top">
-      <a href="examples/lily-stargazer.png"><img src="examples/lily-stargazer.png" alt="Stargazer lily editorial poster" width="100%" /></a><br />
-      <strong>Stargazer Lily</strong><br /><sub>Star-shaped petals, dark speckles, and a night-sky presence.</sub>
+      <a href="examples/daisy.png"><img src="assets/gallery/daisy.jpg" alt="Daisy baseline" width="100%" /></a><br />
+      <strong>Daisy</strong><br /><sub>Baseline: bright daisies with a mineral field layer.</sub>
     </td>
   </tr>
 </table>
 
-> These are generated studies, not templates to copy. Every new theme recomposes the subject, palette, carriers, and release.
+### Daisy — finish variants (same subject, different mood)
+
+<table>
+  <tr>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v2.png"><img src="assets/gallery/daisy-v2.jpg" alt="Daisy variant 1" width="100%" /></a><br />
+      <strong>Daisy · Variant 1</strong><br /><sub>Different surface finish on the same theme.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v3.png"><img src="assets/gallery/daisy-v3.jpg" alt="Daisy variant 2" width="100%" /></a><br />
+      <strong>Daisy · Variant 2</strong><br /><sub>Another palette and field relationship.</sub>
+    </td>
+    <td width="33.33%" align="center" valign="top">
+      <a href="examples/daisy-v4.png"><img src="assets/gallery/daisy-v4.jpg" alt="Daisy variant 3" width="100%" /></a><br />
+      <strong>Daisy · Variant 3</strong><br /><sub>Shows the range of a fixed page grammar with a variable finish.</sub>
+    </td>
+  </tr>
+</table>
+
+> These are generated studies, not templates to copy. The last row is the same daisy subject rendered in three different finishes, demonstrating how the page grammar stays fixed while the mood shifts.
 
 ## Where it fits—and where it does not
 
