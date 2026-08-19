@@ -6,54 +6,49 @@
 > **AI image-generation skill (生图 Skill)** — compile any subject into a generator-ready editorial poster prompt.
 > **AI 生图 Skill** — 把任意主题编译成可直接出图的编辑海报提示词。
 
-A generator-agnostic prompt-compilation system for a stable **9010-derived editorial cover family**. Feed it a subject (plant, object, artifact, material, theme); it returns a structured prompt that produces the same editorial family across Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
+## What style is this?
 
-## Core visual contract
+One sentence: **vintage museum-archive editorial posters** — old botanical plates and museum archive cards, crossed with modern magazine layout.
+
+Every image keeps the same skeleton:
 
 ```text
-oversized high-contrast serif title
-+ compact complete central subject event
-+ unequal contacting printed field
-+ sparse subject-specific index marks
-+ quiet authored lower-right release
-+ tiny lowercase `archive-print-lab` editorial imprint
+a giant serif title dominating the upper third to half of the frame
++ the subject complete and compact at the center (flower, tree, object...)
++ printed-paper texture, a hint of old archive
++ sparse labels, ticks and cross-marks, like an index in a field guide
++ a quiet lower-right release with a small publication imprint
 ```
 
-The family keeps the page grammar stable while re-authoring the subject, palette, material proof, structural carriers, and release for each new theme.
+Think of a carefully crafted archive card: big title, centered specimen, print details, quiet sign-off. New themes only swap the specimen and the color mood — the skeleton stays.
+
+## Input & output
+
+Give it a subject (sunflower, oil lamp, gypsophila, red rose...), get back a ready-to-use prompt for your image generator:
+
+```text
+/archive-print-lab generate a sunflower with Image2
+/archive-print-lab write a poster prompt for an oil lamp
+/archive-print-lab create a frosted editorial cover about gypsophila
+```
+
+Works with Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
 
 ## What it does
 
 - **Image-generation prompt compiler**: turns objects, plants, artifacts, materials, and editorial themes into ready-to-use image prompts.
 - **Generator-agnostic**: works without a specific model; the default deliverable is a ready-to-use prompt.
-- Adapts prompt syntax only when a generator is named — Image2 / gpt-image-2, Midjourney, Flux, SDXL, Stable Diffusion, ComfyUI, Gemini, and consumer image tools.
-- Uses an optional Image2 editorial adapter to retain strong title, central-event, and contacting-field pressure in image-native output.
+- Adapts prompt syntax only when a generator is named, keeping strong title, central-event, and contacting-field pressure.
+- Exact lettering in image-native generation is approximate by nature; prompts keep displayed text short and report that limitation honestly.
 
-## Canonical route
-
-```yaml
-series: 9010-derived-editorial-family
-mode: concentrated_cover
-recipe: concentrated_editorial_cover
-chassis: structural
-ratio: 16:9
-```
-
-For ordinary requests, the family retains:
-
-1. a dominant upper title plane;
-2. a broad, compact, dark-anchored central event;
-3. a primary/support/return contacting field;
-4. soft material volume against crisp printed structure;
-5. a connected lower-right release with the small `archive-print-lab` publication imprint.
-
-## Gallery — example generated outputs / 生成效果示例
+## Gallery — example generated outputs
 
 | Image | Subject | Description |
 |-------|---------|-------------|
 | ![Sunflower](examples/sunflower.png) | Sunflower 向日葵 | Warm analog print — golden petals, dark seed head, summer solstice light. |
 | ![Baby's Breath](examples/babys-breath.png) | Gypsophila 满天星 | Contemporary frosted — white blooms on airy branches, mineral cool light. |
 | ![Lily](examples/lily-pink.png) | Lily 百合 | Soft pastel editorial — pink petals, spotted throat, gentle gradient. |
-| ![Lily](examples/lily-stargazer.png) | Lily 百合 | Dreamy diffused — stargazer variety, warm pink, luminous atmosphere. |
+| ![Lily](examples/lily-stargazer.png) | Lily 百合 | Dreamy diffused — warm pink, luminous atmosphere. |
 | ![Oil Lamp](examples/oil-lamp.png) | Oil Lamp 油灯 | Warm analog print — brass base, amber oil, glowing wick. |
 | ![Tree](examples/tree.png) | Tree 树 | Earthy analog — gnarled trunk, mossy canopy, ring and fork annotations. |
 | ![Daisy](examples/daisy.png) | Daisy 雏菊 | Contemporary frosted — white petals, golden center, structure in balance. |
@@ -63,14 +58,6 @@ For ordinary requests, the family retains:
 ## Use
 
 Load `SKILL.md` as the entrypoint. It routes the task, compiles the theme and palette, plans the composition, then produces one generator-ready prompt.
-
-```text
-/archive-print-lab generate a sunflower with Image2
-/archive-print-lab write a poster prompt for an oil lamp
-/archive-print-lab create a frosted editorial cover about gypsophila
-```
-
-Exact lettering in image-native generation is approximate by nature; prompts keep displayed text short and report that limitation honestly.
 
 ## Validation
 
