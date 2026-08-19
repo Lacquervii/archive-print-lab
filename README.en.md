@@ -17,7 +17,7 @@ a giant serif title dominating the upper third to half of the frame
 + the subject complete and compact at the center (flower, tree, object...)
 + printed-paper texture, a hint of old archive
 + sparse labels, ticks and cross-marks, like an index in a field guide
-+ a quiet lower-right release with a small publication imprint
++ a quiet, open release area at the lower right
 ```
 
 Think of a carefully crafted archive card: big title, centered specimen, print details, quiet sign-off. New themes only swap the specimen and the color mood — the skeleton stays.
